@@ -1,0 +1,78 @@
+.div1{
+
+    margin: 20px 40px;
+    font-family: "Fredoka", sans-serif;
+    font-weight: normal;
+}
+
+.h1{
+
+    margin: 30px 40px;
+    font-family: "Fredoka", sans-serif;
+}
+
+.allservices{
+
+    margin: 110px 40px;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+
+.services{
+
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 250px;
+    margin: 10px 60px;
+    /* background-color: rgb(192, 185, 185);
+    animation: color-change 5s infinite alternate forwards; */
+
+}
+
+    @keyframes color-change {
+      0% {
+        background-color: #d4d7e2; /* Starting color */
+      }
+      50% {
+        background-color: #6E7488; /* Color at 50% of the animation */
+      }
+      100% {
+        background-color: #7dc2ce; /* Ending color */
+      }
+    }
+
+.services:hover{
+
+    background-color: #E2E7F1;
+    box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 33px;
+    border-radius: 20px;
+    
+   
+}
+
+.services h2{
+    
+    margin-top: 100px;
+    margin-left: -50px;
+    font-family: "Fredoka", sans-serif ;
+    color: #090B19;
+
+}
+
+.services p{
+
+    font-size: 13px;
+    font-family: "Fredoka", sans-serif;
+    margin-left: 5px;
+}
+
+.simg{
+
+    width: 50px;
+    height: 50px;
+    margin: 5px 5px;
+
+}
