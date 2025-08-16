@@ -1,0 +1,205 @@
+.bimg{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets//bgimg3.jpg);
+    height: 700px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    margin: 50px 35px;
+    background-size: cover;
+   
+   
+}
+
+.p1{
+
+      margin-top: -200px;
+     font-family: "Fredoka", sans-serif;
+      color: antiquewhite;
+
+}
+
+.hd1{
+    
+    font-size: 50px;
+    color: antiquewhite;
+    margin-top: 5px;
+    font-family: "Fredoka", sans-serif;
+
+   
+}
+
+.btdiv{
+
+    height: 180px;
+    width: 320px;
+    background-color: #F3F6FC;
+    display: flex;
+    margin: 0px 0px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Fredoka", sans-serif;
+    
+}
+
+.btdivs{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: -50px 150px;
+
+}
+
+.projects{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 80px 85px;
+
+}
+
+.project{
+
+    width: 350px;
+    height: 340px;
+    background-color: rgb(138, 212, 212);
+    margin: 10px 10px;
+    display: flex;
+}
+
+#p1{
+    background-image: url(../assets/pj1.jpg);
+    background-size: cover;
+    
+}
+#p2{
+    background-image: url(../assets/pj2.jpg);
+    background-size: cover;
+
+}
+#p3{
+    background-image: url(../assets/pj3.jpg);
+    background-size: cover;
+
+}
+#p4{
+    background-image: url(../assets/pj4.jpg);
+    background-size: cover;
+
+}
+#p5{
+    background-image: url(../assets/pj5.jpg);
+    background-size: cover;
+
+}
+#p6{
+    background-image: url(../assets/pj6.jpg);
+    background-size: cover;
+
+}
+#p7{
+    background-image: url(../assets/p7.jpg);
+    background-size: cover;
+
+}
+#p8{
+    background-image: url(../assets/pj8.jpg);
+    background-size: cover;
+
+}
+#p9{
+    background-image: url(../assets/pj9.jpg);
+    background-size: cover;
+
+}
+
+/* responsive css */
+
+@media only screen and (max-width: 600px) {
+
+    .bimg{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets//bgimg3.jpg);
+    height: 914px;
+    width: 400px;
+    background-repeat: no-repeat;
+    margin: 30px 5px;
+    background-size: cover;
+   
+   
+}
+
+.p1{
+
+      margin-top: -200px;
+     font-family: "Fredoka", sans-serif;
+      color: antiquewhite;
+
+}
+
+.hd1{
+    
+    font-size: 50px;
+    color: antiquewhite;
+    margin-top: 5px;
+    font-family: "Fredoka", sans-serif;
+
+   
+}
+
+.btdiv{
+
+    height: 180px;
+    width: 320px;
+    background-color: #F3F6FC;
+    display: flex;
+    margin: 0px 5px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Fredoka", sans-serif;
+    
+}
+
+.btdivs{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0px 50px;
+
+}
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+  .navbar {background: green;}
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+  .navbar {background: blue;}
+}  */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+  .navbar {background: orange;}
+}  */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+  .navbar {background: pink;}
+} */

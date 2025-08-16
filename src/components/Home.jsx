@@ -8,6 +8,7 @@ const Home = () =>{
 
         <div>
 
+       <div className='bg'>
         <div className='navbar'>
 
         <ul>
@@ -28,7 +29,9 @@ const Home = () =>{
             
         </ul>
 
-    <div className='main'>
+        </div>
+
+        <div className='main'>
 
     <div id='tdiv'>
     FENIX DESIGNERS
@@ -51,12 +54,10 @@ const Home = () =>{
          
     </div>
 
-     <div className='bt1div'>
-      ihhhuhuhuihh
     </div>
-   
 
-        </div>
+    
+   
 
    
 

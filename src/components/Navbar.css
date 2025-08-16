@@ -32,3 +32,65 @@ li{
     text-decoration: none;
     color: #061943;
 }
+
+/* responsive css */
+
+@media only screen and (max-width: 600px) {
+
+    .Navbar{
+
+    display: flex;
+    max-height: 100px;
+    max-width: 600px;
+    background-color: #F1F4FB;
+
+}
+
+.uldiv{
+
+    display: flex;
+    margin: 20px 80px;
+    list-style: none;
+    font-size: 1rem;
+    font-family: "Fredoka", sans-serif;
+
+}
+
+li{
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.noactive{
+    text-decoration: none;
+    color: #6E7488;
+}
+
+.active{
+
+    text-decoration: none;
+    color: #061943;
+}
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+  .navbar {background: green;}
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+  .navbar {background: blue;}
+}  */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+  .navbar {background: orange;}
+}  */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+  .navbar {background: pink;}
+} */

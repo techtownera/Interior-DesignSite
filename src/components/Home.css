@@ -1,13 +1,18 @@
+.bg{
+
+    background-image: url('../assets/bgimg.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
 
 .navbar{
 
     display: flex;
-    height: 100vh;
+    height: 100px;
     width: 100vw;
-    background-image: url('../assets/bgimg.jpg'); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+   
 }
 
 ul{
@@ -28,11 +33,12 @@ li{
 
 .main {
 
-    height: 100vh;
+    height: 585px;
     width: 400px;
     border: 2px solid #F1F4FB;
     display: flex;
-    margin: 0px -1700px;
+    margin-top: -100px;
+    margin-left: 200px;
 
 
 }
@@ -94,3 +100,129 @@ li{
     text-decoration: none;
     color: #061943;
 }
+
+/* responsive css */
+
+@media only screen and (max-width: 600px) {
+
+  .bg{
+
+    background-image: url('../assets/bgimg.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar{
+
+    display: flex;
+    height: 80px;
+    width: 100vw;
+    background-color: #F1F4FB;
+   
+}
+
+  
+  ul{
+
+    display: flex;
+    margin-top: 10px;
+    margin-left: 80px;
+    list-style: none;
+    font-size: 1rem;
+    font-family: "Fredoka", sans-serif;
+
+}
+
+li{
+    margin: 10px 5px;
+    text-decoration: none;
+}
+
+.main {
+
+    height: 914px;
+    width: 250px;
+    border: 2px solid #F1F4FB;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 80px;
+
+
+}
+
+.mdiv{
+
+    margin: 250px 5px;
+    font-size: 80%;
+    color: #F1F4FB;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Playwrite HU", cursive;
+
+
+}
+
+.btn{
+
+    height: 40px;
+    width: 108px;
+    border: 2px solid #F1F4FB;
+    border-radius: 20px;
+    margin: 20px 0px;
+
+}
+
+#tdiv{
+    height: 50px;
+    width: 250px;
+    background-color: #F1F4FB;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 5px;
+    font-size: small;
+
+}
+
+.bt1div{
+
+    height: 400px;
+    width: 400px;
+    background-color: #3265dc;
+    margin: 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    
+
+}
+
+
+
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+  .navbar {background: green;}
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+  .navbar {background: blue;}
+}  */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+  .navbar {background: orange;}
+}  */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+  .navbar {background: pink;}
+} */

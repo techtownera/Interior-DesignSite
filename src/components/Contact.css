@@ -1,0 +1,169 @@
+
+.cdiv1{
+
+    width: 300px;
+    height: 400px;
+    background-color: #F3F6FC;
+    margin: 40px 0px;
+    font-family: "Fredoka", sans-serif;
+    font-size: 35px;
+    padding: 50px 10px;
+    display: flex;
+}
+
+.cdiv2{
+
+    width: 800px;
+    height: 400px;
+    background-color: #090B19;
+    margin: 40px 0px;
+    font-family: "Fredoka", sans-serif;
+    font-size: 15px;
+   display: flex;
+}
+
+.cmain{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0pc 50px;
+
+}
+
+.cimg{
+    width: 300px;
+    height: 300px;
+    background-image: url(../assets/contact.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 30px 50px;
+    border-radius: 50%;
+
+}
+
+.formbtn{
+
+    margin: 150px 50px;
+}
+
+.fbtn a{
+
+   
+   
+    text-decoration: none;
+    font-size: 20px;
+    color: #090B19;
+    font-family: "Fredoka", sans-serif ;
+    
+}
+
+.fbtn{
+
+    height: 60px;
+    width: 150px;
+    background-color: #F3F6FC;
+    border-radius: 10px;
+    border: none;
+    
+
+}
+
+/* responsive css */
+
+@media only screen and (max-width: 600px) {
+
+    .cdiv1{
+
+    width: 400px;
+    height: 400px;
+    background-color: #F3F6FC;
+    margin: 40px 5px;
+    font-family: "Fredoka", sans-serif;
+    font-size: 35px;
+    padding: 50px 10px;
+    display: flex;
+}
+
+.cdiv2{
+
+    width: 400px;
+    height: 400px;
+    background-color: #090B19;
+    margin: 40px 5px;
+    font-family: "Fredoka", sans-serif;
+    font-size: 15px;
+   display: flex;
+}
+
+.cmain{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0px 20px;
+
+}
+
+.cimg{
+    width: 200px;
+    height: 200px;
+    background-image: url(../assets/contact.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 50px 50px;
+    border-radius: 50%;
+
+}
+
+.formbtn{
+
+    margin: 100px 0px;
+}
+
+.fbtn a{
+
+   
+   
+    text-decoration: none;
+    font-size: 5px;
+    color: #090B19;
+    font-family: "Fredoka", sans-serif ;
+    
+}
+
+.fbtn{
+
+    height: 20px;
+    width: 50px;
+    background-color: #F3F6FC;
+    border-radius: 10px;
+    border: none;
+    
+
+}
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+  .navbar {background: green;}
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+  .navbar {background: blue;}
+}  */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+  .navbar {background: orange;}
+}  */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+  .navbar {background: pink;}
+} */
+
