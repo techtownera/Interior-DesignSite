@@ -142,11 +142,11 @@ li{
 
 .main {
 
-    height: 890px;
+    height: 810px;
     width: 250px;
     border: 2px solid #F1F4FB;
     display: flex;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-left: 80px;
 
 
