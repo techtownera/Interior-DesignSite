@@ -23,7 +23,7 @@ const Service = () => {
       <img className='simg' src = {s1}></img>
       <h2>Space Planning</h2>
       <p>
-        it easy to help you turn your design dreams into reality. This includes a variety of bedroom design or house designers. No matter your choice, The Wooden Strings can help you create a unique home.
+        it easy to help you turn your design dreams into reality. This includes a variety of bedroom design or house designers. No matter your choice, FENIX designers can help you create a unique home.
 
       </p>
 
@@ -35,7 +35,7 @@ const Service = () => {
 
       <h2>Custom Furniture</h2>
       <p>
-        it easy to help you turn your design dreams into reality. This includes a variety of bedroom design or house designers. No matter your choice, The Wooden Strings can help you create a unique home.
+        it easy to help you turn your design dreams into reality. This includes a variety of bedroom design or house designers. No matter your choice, FENIX designers can help you create a unique home.
       </p>
     </div>
 
@@ -43,7 +43,7 @@ const Service = () => {
         <img className='simg' src = {s2}></img>
        <h2>Furniture Layouts</h2>
         <p>
-        it easy to help you turn your design dreams into reality. This includes a variety of bedroom design or house designers. No matter your choice, The Wooden Strings can help you create a unique home.
+        it easy to help you turn your design dreams into reality. This includes a variety of bedroom design or house designers. No matter your choice, FENIX designers can help you create a unique home.
       </p>
     </div>
 
