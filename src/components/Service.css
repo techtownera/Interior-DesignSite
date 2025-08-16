@@ -82,6 +82,22 @@
 
 @media only screen and (max-width: 600px) {
 
+    .services h2{
+    
+    margin-top: 50px;
+    margin-left: 0px;
+    font-family: "Fredoka", sans-serif ;
+    color: #090B19;
+
+}
+
+.services p{
+
+    font-size: 13px;
+    font-family: "Fredoka", sans-serif;
+    margin-left: 5px;
+}
+
 
 }
 
