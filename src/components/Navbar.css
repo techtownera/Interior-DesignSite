@@ -1,16 +1,18 @@
 .Navbar{
 
     display: flex;
-    height: 100px;
+    height: 120px;
     width: 100vw;
     background-color: #F1F4FB;
+    flex-wrap: wrap;
+    flex-direction: row;
 
 }
 
 .uldiv{
 
     display: flex;
-    margin: 20px 700px;
+    margin: 20px 200px;
     list-style: none;
     font-size: 1.5rem;
     font-family: "Fredoka", sans-serif;
@@ -19,6 +21,7 @@
 
 li{
     margin: 10px 20px;
+    padding: 10px 2px;
     text-decoration: none;
 }
 
@@ -31,6 +34,37 @@ li{
 
     text-decoration: none;
     color: #061943;
+}
+
+.logo img{
+    
+    height: 100px;
+    width: 100px;
+
+}
+
+.logo {
+
+    margin: 5px 40px;
+}
+
+.hideuldiv{
+    display: none;
+}
+
+.ham img {
+
+    height: 50px;
+    width: 50px;
+}
+
+.ham{
+
+    margin: 30px 50px;
+    display: flex;
+    position: fixed;
+    right: 0;    
+
 }
 
 /* responsive css */
@@ -40,16 +74,18 @@ li{
     .Navbar{
 
     display: flex;
-    max-height: 100px;
+    max-height: 120px;
     max-width: 600px;
     background-color: #F1F4FB;
+    flex-wrap: wrap;
+    flex-direction: row;
 
 }
 
 .uldiv{
 
     display: flex;
-    margin: 20px 80px;
+    margin: 20px -8px;
     list-style: none;
     font-size: 1rem;
     font-family: "Fredoka", sans-serif;
@@ -57,7 +93,8 @@ li{
 }
 
 li{
-    margin: 10px 20px;
+    margin: 10px 2px;
+    padding: 20px 0px;
     text-decoration: none;
 }
 
@@ -72,13 +109,43 @@ li{
     color: #061943;
 }
 
+.logo img{
+    
+    height: 70px;
+    width: 70px;
+
+}
+
+.logo {
+
+    margin: 20px 20px;
+}
+
+.ham img {
+
+    height: 40px;
+    width: 40px;
+}
+
+.ham{
+
+    margin: 40px 10px;
+    display: flex;
+    /* position: fixed;
+    right: 0;     */
+
+}
+
+
 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) {
-  .navbar {background: green;}
-} */
+@media only screen and (min-width: 600px) {
+
+        
+
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 /* @media only screen and (min-width: 768px) {

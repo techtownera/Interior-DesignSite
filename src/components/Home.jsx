@@ -1,8 +1,16 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { useState } from 'react';
+import menu from '../assets/menu-bar-icon.png'
 import './Home.css'
 
 const Home = () =>{
+
+      const [isopn, setisopne] = useState(false);
+     
+       function toggleopen(){
+              return setisopne(!isopn);
+       }
 
     return(
 
@@ -11,7 +19,7 @@ const Home = () =>{
        <div className='bg'>
         <div className='navbar'>
 
-        <ul>
+        <ul className={isopn ? "" : "hidenav"}>
 
        <li>
         <NavLink to="/" className={({isActive}) => isActive ? "active" : "noactive"} > Home</NavLink>
@@ -31,10 +39,16 @@ const Home = () =>{
 
         </div>
 
-        <div className='main'>
+      <div className='main'>
 
     <div id='tdiv'>
     FENIX DESIGNERS
+     
+
+    <div className='hamicon'>
+           <img src={menu} onClick={toggleopen} />
+    </div>
+    </div>
 
      <div className='mdiv'>
        inside inovation
@@ -46,7 +60,7 @@ const Home = () =>{
   
     </div>
 
-    </div>
+   
      
      <div className='bt2div'>
 

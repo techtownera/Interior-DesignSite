@@ -1,6 +1,6 @@
 .bg{
 
-    background-image: url('../assets/bgimg.jpg'); 
+    background-image: url('../assets/spacejoy-9M66C_w_ToM-unsplash.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -18,11 +18,12 @@
 ul{
 
     display: flex;
-    margin: 10px 700px;
+    margin: 5px 700px;
     list-style: none;
-    /* color: rgb(7, 60, 94); */
     font-size: 1.5rem;
     font-family: "Fredoka", sans-serif;
+    transition: width 2s, height 2s, transform 2s;
+
 
 }
 
@@ -39,18 +40,20 @@ li{
     display: flex;
     margin-top: -100px;
     margin-left: 200px;
+    flex-wrap: wrap;
+    flex-direction: row;
 
 
 }
 
 .mdiv{
 
-    margin: 250px 44px;
+    margin: 250px 50px;
     font-size: 1.5rem;
     color: #F1F4FB;
     display: flex;
     flex-wrap: wrap;
-    font-family: "Playwrite HU", cursive;
+    font-family: "Fredoka", sans-serif;
 
 
 }
@@ -66,14 +69,15 @@ li{
 }
 
 #tdiv{
-    height: 50px;
-    width: 400px;
+    height: 70px;
+    width: 398px;
     background-color: #F1F4FB;
     display: flex;
     flex-wrap: wrap;
     margin:0px 0px;
     font-family: 'Times New Roman', Times, serif;
     padding: 20px 20px;
+    flex-direction: row;
 
 }
 
@@ -101,24 +105,91 @@ li{
     color: #061943;
 }
 
-/* responsive css */
+.hidenav{
 
+  display: none;
+}
+
+.hamicon{
+   margin: -30px 300px;
+   display: flex;
+  
+}
+
+.hamicon img{
+   height: 50px;
+   width: 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none; /* Remove outline on focus */
+  transform: scale(1); /* Initial scale */
+
+  /* The magic happens here! ✨ */
+  /* This tells the browser to animate changes to background-color,
+     box-shadow, and transform over 0.3 seconds with an ease-in-out curve. */
+  transition:
+              box-shadow 0.3s ease-in-out,
+              transform 0.3s ease-in-out;
+   
+}
+
+.hamicon:hover {
+  box-shadow: 0 6px 12px rgba(9, 167, 241, 0.3); /* More pronounced shadow */
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+
+
+
+/* responsive css */
 @media only screen and (max-width: 600px) {
 
   .bg{
 
-    background-image: url('../assets/bgimg.jpg'); 
+    background-image: url('../assets/spacejoy-9M66C_w_ToM-unsplash.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    max-height: 914px;
+    max-width: 600px;
 }
+
+  .hamicon{
+   margin: -10px 75px;
+   display: flex;
+   
+  
+}
+
+.hamicon img{
+   height: 50px;
+   width: 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none; /* Remove outline on focus */
+  transform: scale(1); /* Initial scale */
+
+  /* The magic happens here! ✨ */
+  /* This tells the browser to animate changes to background-color,
+     box-shadow, and transform over 0.3 seconds with an ease-in-out curve. */
+  transition:
+              box-shadow 0.3s ease-in-out,
+              transform 0.3s ease-in-out;
+   
+}
+
+.hamicon:hover {
+  box-shadow: 0 6px 12px rgba(9, 167, 241, 0.3); /* More pronounced shadow */
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
 
 .navbar{
 
     display: flex;
-    height: 80px;
-    width: 100vw;
+    max-height: 80px;
+    max-width: 600px;
     background-color: #F1F4FB;
    
 }
@@ -142,12 +213,14 @@ li{
 
 .main {
 
-    height: 810px;
-    width: 250px;
+    max-height: 810px;
+    max-width: 280px;
     border: 2px solid #F1F4FB;
     display: flex;
     margin-top: 5px;
     margin-left: 80px;
+    flex-wrap: wrap;
+    flex-direction: row;
 
 
 }
@@ -159,7 +232,7 @@ li{
     color: #F1F4FB;
     display: flex;
     flex-wrap: wrap;
-    font-family: "Playwrite HU", cursive;
+    font-family: "Fredoka", sans-serif;
 
 
 }
@@ -176,7 +249,7 @@ li{
 
 #tdiv{
     height: 50px;
-    width: 250px;
+    width: 280px;
     background-color: #F1F4FB;
     display: flex;
     flex-wrap: wrap;
@@ -184,6 +257,8 @@ li{
     font-family: 'Times New Roman', Times, serif;
     padding: 10px 5px;
     font-size: small;
+    flex-direction: column;
+    
 
 }
 
