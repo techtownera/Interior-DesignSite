@@ -4,9 +4,10 @@ import Home from './components/Home'
 import Service from './components/Service'
 import Contact from './components/Contact'
 import Projects from  './components/Projects'
+import Footer from './components/Footer'
+
 
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
-import Footer from './components/footer'
 
 
 const router = createBrowserRouter([
