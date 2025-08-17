@@ -5,40 +5,19 @@
     background-size: cover;
     height: 100vh;
     width: 100vw;
-}
-
-.navbar{
-
     display: flex;
-    height: 100px;
-    width: 100vw;
-   
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
-ul{
-
-    display: flex;
-    margin: 5px 700px;
-    list-style: none;
-    font-size: 1.5rem;
-    font-family: "Fredoka", sans-serif;
-    transition: width 2s, height 2s, transform 2s;
-
-
-}
-
-li{
-    margin: 10px 20px;
-    text-decoration: none;
-}
 
 .main {
 
-    height: 585px;
+    height: 580px;
     width: 400px;
     border: 2px solid #F1F4FB;
     display: flex;
-    margin-top: -100px;
+    margin-top: 5px;
     margin-left: 200px;
     flex-wrap: wrap;
     flex-direction: row;
@@ -150,67 +129,14 @@ li{
     background-image: url('../assets/spacejoy-9M66C_w_ToM-unsplash.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 914px;
-    max-width: 600px;
-}
-
-  .hamicon{
-   margin: -10px 75px;
-   display: flex;
-   
-  
-}
-
-.hamicon img{
-   height: 50px;
-   width: 50px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  outline: none; /* Remove outline on focus */
-  transform: scale(1); /* Initial scale */
-
-  /* The magic happens here! ✨ */
-  /* This tells the browser to animate changes to background-color,
-     box-shadow, and transform over 0.3 seconds with an ease-in-out curve. */
-  transition:
-              box-shadow 0.3s ease-in-out,
-              transform 0.3s ease-in-out;
-   
-}
-
-.hamicon:hover {
-  box-shadow: 0 6px 12px rgba(9, 167, 241, 0.3); /* More pronounced shadow */
-  transform: scale(1.05); /* Slightly enlarge the button */
-}
-
-
-.navbar{
-
+    min-height: 914px;
+    min-width: 600px;
     display: flex;
-    max-height: 80px;
-    max-width: 600px;
-    background-color: #F1F4FB;
-   
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
   
-  ul{
-
-    display: flex;
-    margin-top: 10px;
-    margin-left: 80px;
-    list-style: none;
-    font-size: 1rem;
-    font-family: "Fredoka", sans-serif;
-
-}
-
-li{
-    margin: 10px 5px;
-    text-decoration: none;
-}
-
 .main {
 
     max-height: 810px;

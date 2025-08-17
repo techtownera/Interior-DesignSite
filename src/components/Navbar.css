@@ -56,14 +56,32 @@ li{
 
     height: 50px;
     width: 50px;
+     border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none; /* Remove outline on focus */
+  transform: scale(1); /* Initial scale */
+
+  /* The magic happens here! ✨ */
+  /* This tells the browser to animate changes to background-color,
+     box-shadow, and transform over 0.3 seconds with an ease-in-out curve. */
+  transition:
+              box-shadow 0.3s ease-in-out,
+              transform 0.3s ease-in-out;
+ 
+}
+
+.ham:hover {
+  box-shadow: 0 6px 12px rgba(9, 167, 241, 0.3); /* More pronounced shadow */
+  transform: scale(1.05); /* Slightly enlarge the button */
 }
 
 .ham{
 
     margin: 30px 50px;
     display: flex;
-    position: fixed;
-    right: 0;    
+    /* position: fixed;
+    right: 0;     */
 
 }
 
@@ -74,8 +92,8 @@ li{
     .Navbar{
 
     display: flex;
-    max-height: 120px;
-    max-width: 600px;
+    min-height: 500px;
+    min-width: 600px;
     background-color: #F1F4FB;
     flex-wrap: wrap;
     flex-direction: row;
@@ -84,16 +102,17 @@ li{
 
 .uldiv{
 
-    display: flex;
-    margin: 20px -8px;
-    list-style: none;
-    font-size: 1rem;
-    font-family: "Fredoka", sans-serif;
+        display: flex;
+        margin: 86px 30px;
+        list-style: none;
+        font-size: 20px;
+        font-family: "Fredoka", sans-serif;
+        flex-direction: column;
 
 }
 
 li{
-    margin: 10px 2px;
+    margin: 10px 20px;
     padding: 20px 0px;
     text-decoration: none;
 }
@@ -129,10 +148,10 @@ li{
 
 .ham{
 
-    margin: 40px 10px;
+    margin: 28px 38px;
     display: flex;
-    /* position: fixed;
-    right: 0;     */
+    position: fixed;
+    right: 0;    
 
 }
 
@@ -143,21 +162,280 @@ li{
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
+    .Navbar{
+
+    display: flex;
+    min-height: 120px;
+    min-width: 600px;
+    background-color: #F1F4FB;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.uldiv{
+
+    display: flex;
+    margin: 20px 60px;
+    list-style: none;
+    font-size: 100%;
+    font-family: "Fredoka", sans-serif;
+
+}
+
+li{
+    margin: 10px 20px;
+    padding: 20px 0px;
+    text-decoration: none;
+}
+
+.noactive{
+    text-decoration: none;
+    color: #6E7488;
+}
+
+.active{
+
+    text-decoration: none;
+    color: #061943;
+}
+
+.logo img{
+    
+    height: 70px;
+    width: 70px;
+
+}
+
+.logo {
+
+    margin: 20px 20px;
+}
+
+.ham img {
+
+    height: 40px;
+    width: 40px;
+}
+
+.ham{
+
+    margin: 40px 40px;
+    display: flex;
+    position: fixed;
+    right: 0;    
+
+}
         
 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {
-  .navbar {background: blue;}
-}  */
+@media only screen and (min-width: 768px) {
+
+     .Navbar{
+
+    display: flex;
+    min-height: 120px;
+    min-width: 768px;
+    background-color: #F1F4FB;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.uldiv{
+
+    display: flex;
+    margin: 20px 134px;
+    list-style: none;
+    font-size: 1rem;
+    font-family: "Fredoka", sans-serif;
+
+}
+
+li{
+    margin: 10px 20px;
+    padding: 20px 0px;
+    text-decoration: none;
+}
+
+.noactive{
+    text-decoration: none;
+    color: #6E7488;
+}
+
+.active{
+
+    text-decoration: none;
+    color: #061943;
+}
+
+.logo img{
+    
+    height: 70px;
+    width: 70px;
+
+}
+
+.logo {
+
+    margin: 20px 20px;
+}
+
+.ham img {
+
+    height: 40px;
+    width: 40px;
+}
+
+.ham{
+
+    margin: 40px 50px;
+    display: flex;
+    position: fixed;
+    right: 0;    
+
+}
+
+} 
 
 /* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {
-  .navbar {background: orange;}
-}  */
+@media only screen and (min-width: 992px) {
+
+    .Navbar{
+
+    display: flex;
+    min-height: 120px;
+    min-width: 992px;
+    background-color: #F1F4FB;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.uldiv{
+
+    display: flex;
+    margin: 20px 190px;
+    list-style: none;
+    font-size: 1.5rem;
+    font-family: "Fredoka", sans-serif;
+
+}
+
+li{
+    margin: 10px 20px;
+    padding: 20px 0px;
+    text-decoration: none;
+}
+
+.noactive{
+    text-decoration: none;
+    color: #6E7488;
+}
+
+.active{
+
+    text-decoration: none;
+    color: #061943;
+}
+
+.logo img{
+    
+    height: 70px;
+    width: 70px;
+
+}
+
+.logo {
+
+    margin: 20px 20px;
+}
+
+.ham img {
+
+    height: 50px;
+    width: 50px;
+}
+
+.ham{
+
+    margin: 30px 80px;
+    display: flex;
+    /* position: fixed;
+    right: 0;     */
+
+
+
+}
+} 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {
-  .navbar {background: pink;}
-} */
+@media only screen and (min-width: 1200px) {
+
+    .Navbar{
+
+    display: flex;
+    min-height: 120px;
+    min-width: 768px;
+    background-color: #F1F4FB;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.uldiv{
+
+    display: flex;
+    margin: 20px 300px;
+    list-style: none;
+    font-size: 1.5rem;
+    font-family: "Fredoka", sans-serif;
+
+}
+
+li{
+    margin: 10px 20px;
+    padding: 20px 0px;
+    text-decoration: none;
+}
+
+.noactive{
+    text-decoration: none;
+    color: #6E7488;
+}
+
+.active{
+
+    text-decoration: none;
+    color: #061943;
+}
+
+.logo img{
+    
+    height: 70px;
+    width: 70px;
+
+}
+
+.logo {
+
+    margin: 20px 20px;
+}
+
+.ham img {
+
+    height: 50px;
+    width: 50px;
+}
+
+.ham{
+
+    margin: 30px 80px;
+    display: flex;
+    position: fixed;
+    right: 0;    
+
+}
+}

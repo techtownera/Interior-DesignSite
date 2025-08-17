@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 import './Navbar.css'
 import fenix_logo from '../assets/fenixlogo.png'
-import menu from '../assets/four-squares-line-icon.png'
+import menu from '../assets/menu-bar-icon.png'
 import { useState } from 'react';
 
 const Navbar = () => {

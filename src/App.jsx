@@ -6,16 +6,19 @@ import Contact from './components/Contact'
 import Projects from  './components/Projects'
 
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+import Footer from './components/footer'
 
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <div>
+     <Navbar/>
       <Home/>
       <Service/>
       <Projects/>
       <Contact/>
+      <Footer/>
       </div>
   },
 
@@ -24,6 +27,7 @@ const router = createBrowserRouter([
     element: <div>
       <Navbar/>
       <Service/>
+      <Footer/>
     </div>
 
   },
@@ -32,6 +36,7 @@ const router = createBrowserRouter([
     element: <div>
       <Navbar/>
       <Projects/>
+      <Footer/>
     </div>
   },
 
@@ -40,6 +45,7 @@ const router = createBrowserRouter([
     element: <div>
       <Navbar/>
       <Contact/>
+      <Footer/>
     </div>
   }
 ]);
