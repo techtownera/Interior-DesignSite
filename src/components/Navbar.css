@@ -85,6 +85,18 @@ li{
 
 }
 
+.NavbarShrink{
+
+    display: flex;
+    height: 120px;
+    width: 100vw;
+    background-color: #F1F4FB;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+
 /* responsive css */
 
 @media only screen and (max-width: 600px) {
@@ -92,7 +104,7 @@ li{
     .Navbar{
 
     display: flex;
-    min-height: 500px;
+    min-height: 100px;
     min-width: 600px;
     background-color: #F1F4FB;
     flex-wrap: wrap;
@@ -103,9 +115,9 @@ li{
 .uldiv{
 
         display: flex;
-        margin: 86px 30px;
+        margin: 80px 140px;
         list-style: none;
-        font-size: 20px;
+        font-size: 27px;
         font-family: "Fredoka", sans-serif;
         flex-direction: column;
 
@@ -153,6 +165,12 @@ li{
     position: fixed;
     right: 0;    
 
+}
+
+.NavbarShrink{
+
+    min-height: 500px;
+    min-width: 600px;
 }
 
 
@@ -224,6 +242,14 @@ li{
     display: flex;
     position: fixed;
     right: 0;    
+
+}
+
+.NavbarShrink{
+
+    min-height: 100px;
+    min-width: 600px;
+    
 
 }
         
@@ -298,6 +324,14 @@ li{
 
 }
 
+.NavbarShrink{
+
+    min-height: 100px;
+    min-width: 768px;
+    
+
+}
+
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -369,6 +403,15 @@ li{
 
 
 }
+
+.NavbarShrink{
+
+    min-height: 100px;
+    min-width: 992px;
+    
+
+}
+
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -436,6 +479,14 @@ li{
     display: flex;
     position: fixed;
     right: 0;    
+
+}
+
+.NavbarShrink{
+
+    min-height: 100px;
+    min-width: 1200px;
+    
 
 }
 }

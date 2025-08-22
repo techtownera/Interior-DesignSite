@@ -8,9 +8,10 @@ import { useState } from 'react';
 const Navbar = () => {
 
   const [isopn, setisopne] = useState(false);
+  const [isclick, setisclick] = useState(true);
 
   function toggleopen(){
-         return setisopne(!isopn);
+         return setisopne(!isopn), setisclick(!isclick);
   }
 
   return (
@@ -18,7 +19,7 @@ const Navbar = () => {
 
     <div>
 
-    <div className='Navbar'>
+    <div className={isclick ? "Navbar" : "NavbarShrink"}>
 
     
     <div className='logo'>

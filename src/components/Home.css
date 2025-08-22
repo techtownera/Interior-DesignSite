@@ -209,19 +209,251 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-/* @media only screen and (min-width: 600px) {
-  .navbar {background: green;}
-} */
+@media only screen and (min-width: 600px) {
+
+       .bg{
+
+    background-image: url('../assets/spacejoy-9M66C_w_ToM-unsplash.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 914px;
+    min-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+  
+.main {
+
+    max-height: 810px;
+    max-width: 280px;
+    border: 2px solid #F1F4FB;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 80px;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+}
+
+.mdiv{
+
+    margin: 250px 5px;
+    font-size: 80%;
+    color: #F1F4FB;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Fredoka", sans-serif;
+
+
+}
+
+.btn{
+
+    height: 40px;
+    width: 108px;
+    border: 2px solid #F1F4FB;
+    border-radius: 20px;
+    margin: 20px 0px;
+
+}
+
+#tdiv{
+    height: 50px;
+    width: 280px;
+    background-color: #F1F4FB;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 5px;
+    font-size: small;
+    flex-direction: column;
+    
+
+}
+
+.bt1div{
+
+    height: 400px;
+    width: 400px;
+    background-color: #3265dc;
+    margin: 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    
+
+}
+
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {
-  .navbar {background: blue;}
-}  */
+@media only screen and (min-width: 768px) {
+
+   .bg{
+
+    background-image: url('../assets/spacejoy-9M66C_w_ToM-unsplash.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 914px;
+    min-width: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+  
+.main {
+
+    max-height: 810px;
+    max-width: 280px;
+    border: 2px solid #F1F4FB;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 80px;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+}
+
+.mdiv{
+
+    margin: 250px 5px;
+    font-size: 80%;
+    color: #F1F4FB;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Fredoka", sans-serif;
+
+
+}
+
+.btn{
+
+    height: 40px;
+    width: 108px;
+    border: 2px solid #F1F4FB;
+    border-radius: 20px;
+    margin: 20px 0px;
+
+}
+
+#tdiv{
+    height: 50px;
+    width: 280px;
+    background-color: #F1F4FB;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 5px;
+    font-size: small;
+    flex-direction: column;
+    
+
+}
+
+.bt1div{
+
+    height: 400px;
+    width: 400px;
+    background-color: #3265dc;
+    margin: 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    
+
+}
+ 
+} 
 
 /* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {
-  .navbar {background: orange;}
-}  */
+@media only screen and (min-width: 992px) {
+
+       .bg{
+
+    background-image: url('../assets/spacejoy-9M66C_w_ToM-unsplash.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 914px;
+    min-width: 992px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+  
+.main {
+
+    max-height: 810px;
+    max-width: 280px;
+    border: 2px solid #F1F4FB;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 80px;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+}
+
+.mdiv{
+
+    margin: 250px 5px;
+    font-size: 80%;
+    color: #F1F4FB;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Fredoka", sans-serif;
+
+
+}
+
+.btn{
+
+    height: 40px;
+    width: 108px;
+    border: 2px solid #F1F4FB;
+    border-radius: 20px;
+    margin: 20px 0px;
+
+}
+
+#tdiv{
+    height: 50px;
+    width: 280px;
+    background-color: #F1F4FB;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 5px;
+    font-size: small;
+    flex-direction: column;
+    
+
+}
+
+.bt1div{
+
+    height: 400px;
+    width: 400px;
+    background-color: #3265dc;
+    margin: 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    
+
+}
+
+
+} 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 /* @media only screen and (min-width: 1200px) {
